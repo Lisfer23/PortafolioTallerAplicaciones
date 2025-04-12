@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Formulario</title>
+
+    <link rel="stylesheet" href="./estilos/estilo.css">     
+</head>
+<body>
+    <form id="formulario" onsubmit="return validarFormulario()">
+        <h2>Formulario de Registro Datos Personales</h2>
+
+        <!-- Campo: Nombre -->
+        <label for="nombre">Nombre:</label>
+        <input type="text" id="nombre" name="nombre">
+        <div id="error-nombre" class="error"></div>
+
+        <!-- Campo: rut -->
+        <label for="Rut">Rut:</label>
+        <input type="text" id="Rut" name="Rut">
+        <div id="error-Rut" class="error"></div>
+
+        <!-- Campo: Edad -->
+        <label for="Edad">Edad:</label>
+        <input type="number" id="Edad" name="Edad">
+        <div id="error-Edad" class="error"></div>
+    
+        <!-- Campo: Telefono -->
+        <label for="Telefono">Telefono:</label>
+        <input type="number" id="Telefono" name="Telefono">
+        <div id="error-Telefono" class="error"></div>
+    
+        <!-- Campo: Direccion -->
+        <label for="Direccion">Direccion:</label>
+        <input type="text" id="Direccion" name="Direccion">
+        <div id="error-Direccion" class="error"></div>
+
+        <!-- Campo: Ciudad -->
+        <label for="Ciudad">Ciudad:</label>
+        <input type="text" id="Ciudad" name="Ciudad">
+        <div id="error-Ciudad" class="error"></div>
+
+        <!-- Campo: Email -->
+        <label for="email">Email:</label>
+        <input type="email" id="email" name="email">
+        <div id="error-email" class="error"></div>
+
+        <!-- Botón de Envío -->
+        <button type="submit">Registrarse</button>
+    </form>
+
+</body>
+</html>

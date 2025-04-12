@@ -1,0 +1,104 @@
+body {
+    font-family: sans-serif;
+    background-color: #e3e3e3;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+#form {
+    background-color: rgb(251, 251, 250);
+    padding: 50px;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    width: 400px;
+    margin-bottom: 30px;
+}
+form {
+    display:flex;
+    flex-direction: column;
+    gap: 20px;
+}
+label {
+    display: block;
+    margin-bottom: 5px;
+    font-weight: bold;
+}
+input {
+    width: 100%;
+    padding: 8px;
+    margin-bottom: 10px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+}
+button {
+    width: 100%;
+    padding: 10px;
+    background-color: #4CAF50;
+    color: white;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+}
+button:hover {
+    background-color: #a0454c;
+}
+.error {
+    color: red;
+    font-size: 0.9em;
+    margin-top: -10px;
+    margin-bottom: 10px;
+}
+.btnEdit {
+    background-color: #28a745;
+    color: white;
+    padding: 6px 10px;
+    font-size: 13px;
+    border: none;
+    border-radius: 6px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+.btnEdit {
+    background-color: #dc3545;
+    color: white;
+    padding: 6px 10px;
+    font-size: 13px;
+    border: none;
+    border-radius: 6px;
+    cursor: pointer;
+    transition: background-color 0.3s ease; 
+}
+#cajadatos {
+    background-color: white;
+    width: 100%;
+    max-width: 700px;
+    border-radius: 10px;
+    border: 1px solid #ccc;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+    padding: 20px;
+    margin-bottom: 40px;
+}
+
+#cajadatos table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-top: 20px;
+}
+
+#cajadatos th, #cajadatos td {
+    padding: 12px;
+    text-align: left;
+    border-bottom: 1px solid #ddd;
+}
+
+#cajadatos th {
+    background-color: #f8f9fa;
+}
+
+#cajadatos tr:hover{
+    background-color: #cecece;
+}

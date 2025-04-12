@@ -1,0 +1,63 @@
+    <!-- PRUEBA 1 de Taller de aplicaciones de Internet.
+     Nombre: Lissette Macias Mejia
+
+     Proyecto hacer un formulario para datos personales.
+     - Hago las validaciones de nombre, apellido, rut, edad en script.js
+     - Igual hice una validación en html como el formato que debe tener el rut. 
+    
+    -->
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Prueba uno</title>
+   
+    <!-- uff cuando es con wamp server la direccion debe ser completa-->
+    <link rel="stylesheet" href="/estilos/estilos.css"> 
+
+    <!-- pero si uso live server o liver server five NOOOO
+       <link rel="stylesheet" href="/estilos/estilos.css">
+    
+    -->
+</head>
+<body>
+    <form id="formulario" onsubmit="return validarFormulario()">
+        <h2>Formulario de Datos Personales</h2>
+
+        <!-- Campo: Nombre -->
+        <label for="nombre">Nombre:</label>
+        <input type="text" id="nombre" name="nombre">
+        <div id="error-nombre" class="error"></div>
+
+        <!-- Campo: Apellido -->
+        <label for="apellido">Apellido:</label>
+        <input type="text" id="apellido" name="apellido">
+        <div id="error-apellido" class="error"></div>
+
+        <!-- Campo: Rut -->
+        <label for="rut">Rut:</label>
+        <input type="text" id="rut" required pattern="\d{7,8}-[\dkK]" title="Formato: 12345678-9 o 12345678-k" />
+        <div id="error-rut" class="error"></div>
+
+        <!-- Campo: Edad -->
+        <label for="edad">Edad:</label>
+        <input type="text" id="edad" name="edad">
+        <div id="error-edad" class="error"></div>
+
+        <!-- Botón de Envío -->
+        <button type="submit">Registrarse</button>
+    </form>
+
+    <!-- Vincular el archivo JavaScript -->
+
+    <!-- uff cuando es con wamp server la direccion debe ser completa-->
+    <script src="/js/script.js"></script>
+
+     <!-- cuando es con LIVER SERVER O LIVE SERVER FIVE NOOO
+       <script src="/js/script.js"></script>
+     
+     -->
+</body>
+</html>
+
