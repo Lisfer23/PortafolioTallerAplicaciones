@@ -5,6 +5,8 @@ Este proyecto, está contemplado las preguntas de la prueba uno, más el portafo
 ---
 
 ## 🚀 Demo
-🧑‍💻 Pregunta_Uno  (preguntauno.netlify.app)
-🧑‍💻 Pregunta_Dos  (pregunta-dos.netlify.app)  
-🧑‍💻 Pregunta_Tres (preguntatres.netlify.app)  
+🌐 [Visita pregunta 1] (preguntauno.netlify.app)
+
+🌐 [Visita pregunta 2] (pregunta-dos.netlify.app) 
+
+🌐 [Visita pregunta 3] (preguntatres.netlify.app)  
